@@ -1,0 +1,10 @@
+# Importing
+import pandas as pd
+import json
+from pandas.io.json import json_normalize
+
+# Loading json file as a string
+json.load(open('world_bank_jason')
+
+# Loading json file as a Data Frame
+world_df= pd.read_json ('world_bank_json.json'
